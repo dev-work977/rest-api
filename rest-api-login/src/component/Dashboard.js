@@ -43,7 +43,7 @@ export default function Dashboard() {
   };
 
   const handleLogout = () => {
-    fetch("https://hdcsbxbo01.mdsol.com/biprws/logoff", {
+    fetch("https://<sapbourl>/biprws/logoff", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

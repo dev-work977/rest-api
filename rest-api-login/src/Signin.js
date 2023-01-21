@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 async function loginUser(credentials) {
-  return fetch("https://hdcsbxbo01.mdsol.com/biprws/logon/long", {
+  return fetch("https://<sapbourl>/biprws/logon/long", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
